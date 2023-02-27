@@ -9,9 +9,23 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa"
 
 [[package]]
+name = "cmp"
+version = "0.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "884e5d350a9c4cc8ed034354bc343424ea93b10098f2fea5a2ce204ae22e128c"
+
+[[package]]
+name = "dary_heap"
+version = "0.3.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "82eecd74c7634706917b219b767d8624fc661dd1f0007a12f0bc977bd6849902"
+
+[[package]]
 name = "exercise"
 version = "0.1.0"
 dependencies = [
+ "cmp",
+ "dary_heap",
  "priority-queue",
 ]
 
